@@ -1,0 +1,39 @@
+header{
+    background-color: aquamarine;
+    text-align: center;
+    position: relative;
+}
+main{
+    background-color: chartreuse;
+    height: 600px;
+}
+footer{
+    background-color: chocolate;
+    height: 150px;
+}
+.logotipo{
+    height: 200px;
+}
+nav{
+    border: red 2px solid;
+    width: 400px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+ul{
+    /* border: green 2px solid; */
+    list-style-type: none;
+    
+}
+
+li{
+    /* border: blue 2px solid; */
+    /* display: inline; */
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+
+}
