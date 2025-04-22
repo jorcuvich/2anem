@@ -1,0 +1,26 @@
+body{
+    display: grid;
+    grid-template-areas: 
+        "cabe cabe"
+        "brac corp"
+        "pern pern";
+    grid-template-columns: 300px auto;
+    grid-template-rows: 300px 600px 300px;
+}
+
+header{
+    grid-area: cabe;
+    background-color: aqua;
+}
+aside{
+    grid-area: brac;
+    background-color: blue;
+}
+main{
+    grid-area: corp;
+    background-color: blueviolet;
+}
+footer{
+    grid-area: pern;
+    background-color: chartreuse;
+}
